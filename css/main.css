@@ -294,11 +294,11 @@ screen and (-ms-high-contrast: none) {
     color: #c13584
 }
 
-.social-links a:hover .fa-linkedin {
+.social-links a:hover .fa-discord {
     color: #4875b4
 }
 
-.social-links a:hover .fa-codepen {
+.social-links a:hover .fa-github {
     color: #212121
 }
 
