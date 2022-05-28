@@ -1,2 +1,2 @@
-# EmiratiCore.github.io
+# AxisAmbition.github.io
 my personal portfolio website 
