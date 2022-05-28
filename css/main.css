@@ -501,7 +501,7 @@ section .row span {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: #fff;
+    background: #333;
     font-weight: 400;
     color: #272341;
     padding: 0rem 5.6rem;
