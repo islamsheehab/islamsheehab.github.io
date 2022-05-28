@@ -59,7 +59,7 @@ a:hover {
 
 @supports (background-clip: text) or (-webkit-background-clip: text) {
     .text-color-main {
-        background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+        background-image: linear-gradient(135deg, #f0d516 0%, #f0d516  100%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -88,10 +88,6 @@ a:hover {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s
 }
 
-.cta-btn:hover {
-    box-shadow: 1.5px 1.5px 3px rgba(174, 174, 192, 0.4), -1px -1px 3px #fff
-}
-
 @media (max-width: 37.5em) {
     .cta-btn:hover {
         box-shadow: none
@@ -102,7 +98,7 @@ a:hover {
     content: "";
     display: block;
     position: absolute;
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-image: linear-gradient(135deg, #4046b3 0%, #4046b3  100%);;
     width: 0px;
     height: 100%;
     left: 0;
@@ -123,13 +119,13 @@ a:hover {
     color: #5b86e5;
     -webkit-text-fill-color: #5b86e5;
     border: 2px solid transparent;
-    border-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    border-image: linear-gradient(135deg, #4046b3 0%, #4046b3  100%);;
     border-image-slice: 1
 }
 
 @supports (background-clip: text) or (-webkit-background-clip: text) {
     .cta-btn--hero {
-        background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+        background-image: linear-gradient(135deg, #4046b3 0%, #4046b3  100%);;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -204,18 +200,6 @@ screen and (-ms-high-contrast: none) {
     width: 100%
 }
 
-.cta-btn--projects {
-    box-shadow: inset 1px 1px 2px 2px rgba(174, 174, 192, 0.15), inset -2px -2px 2px rgba(255, 255, 255, 0.7);
-    border: 2px solid transparent
-}
-
-@media (max-width: 37.5em) {
-    .cta-btn--projects {
-        border: none;
-        box-shadow: 1.5px 1.5px 3px rgba(174, 174, 192, 0.4), -1px -1px 3px #fff
-    }
-}
-
 .cta-btn--projects::after {
     height: 250%;
     width: 130%
@@ -223,10 +207,6 @@ screen and (-ms-high-contrast: none) {
 
 .cta-btn--projects::after {
     transform: translate(-98%, -30%) rotate(45deg)
-}
-
-.cta-btn--projects:hover {
-    box-shadow: 1.5px 1.5px 3px rgba(174, 174, 192, 0.4), -1px -1px 3px #fff
 }
 
 .cta-btn--projects:hover::after {
@@ -392,7 +372,7 @@ section .row span {
 
 #about {
     background-color: #333;
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-image: linear-gradient(135deg, #333 0%, #182c29 100%);
     color: #fff;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -457,7 +437,7 @@ section .row span {
 }
 
 #contact {
-    background-image: linear-gradient(135deg, #36d1dc 0%, #5b86e5 100%);
+    background-image: linear-gradient(135deg, #333 0%, #182c29 100%);
     clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
     padding: 15rem 0 10rem 0;
     margin-top: -15rem;
@@ -503,7 +483,7 @@ section .row span {
     align-items: center;
     background: #333;
     font-weight: 400;
-    color: #272341;
+    color: #ffffff;
     padding: 0rem 5.6rem;
     top: 0;
     left: 0;
@@ -654,7 +634,7 @@ section .row span {
 
 #projects {
     background-color: #333;
-    color: #272341;
+    color: #ffffff;
     margin-top: -15rem;
     padding-top: 15rem
 }
@@ -743,11 +723,6 @@ section .row span {
         width: 100%;
         margin: 0
     }
-}
-
-#projects .project-wrapper__image .thumbnail {
-    border: none;
-    box-shadow: 8px 8px 9px 7px rgba(174, 174, 192, 0.4), -5px -5px 15px 7px #fff
 }
 
 #projects .project-wrapper__image .thumbnail .img-fluid {
