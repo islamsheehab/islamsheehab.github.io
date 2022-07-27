@@ -9,7 +9,8 @@
 
 html {
     font-size: 62.5%;
-    scroll-behavior: smooth background-image: linear-gradient(135deg, #182c29 0%, #333 100%);
+    scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
 }
 
 body {
@@ -216,8 +217,8 @@ screen and (-ms-high-contrast: none) {
 }
 
 .footer {
-    background-image: linear-gradient(135deg, #182c29 0%, #333 100%);
-    background-color: #333;
+    background-image: linear-gradient(135deg, #000000 0%, #000000 100%);
+    background-color: rgb(0, 0, 0);
     padding: 4.8rem 0
 }
 
@@ -374,8 +375,8 @@ section .row span {
 }
 
 #about {
-    background-color: #333;
-    background-image: linear-gradient(135deg, #333 0%, #182c29 100%);
+    background-image: linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 100%);
+    background-color: rgb(0, 0, 0);
     color: #fff;
     height: 100%;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -440,7 +441,8 @@ section .row span {
 }
 
 #contact {
-    background-image: linear-gradient(135deg, #333 0%, #182c29 100%);
+    background-image: linear-gradient(135deg, #0a0a0a 0%, #0a0a0a 100%);
+    background-color: rgb(0, 0, 0);
     clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
     padding: 15rem 0 10rem 0;
     margin-top: -15rem;
@@ -484,8 +486,8 @@ section .row span {
     height: 100vh;
     display: flex;
     align-items: center;
-    background: #333;
-    background-image: linear-gradient(135deg, #182c29 0%, #333 100%);
+    background-image: linear-gradient(135deg, #000000 0%, #000000 100%);
+    background-color: rgb(0, 0, 0);
     font-weight: 400;
     color: #ffffff;
     padding: 0rem 5.6rem;
@@ -637,8 +639,8 @@ section .row span {
 }
 
 #projects {
-    background-image: linear-gradient(135deg, #182c29 0%, #333 100%);
-    background-color: #333;
+    background-image: linear-gradient(135deg, #000000 0%, #000000 100%);
+    background-color: rgb(0, 0, 0);
     color: #ffffff;
     margin-top: -15rem;
     padding-top: 15rem
