@@ -722,20 +722,20 @@ section .row span {
 }
 
 #projects .project-wrapper__image {
-    width: 90%;
+    width: 50%;
     margin: 0 auto
 }
 
 @media (max-width: 75em) {
     #projects .project-wrapper__image {
-        width: 100%;
+        width: 50%;
         margin: 0
     }
 }
 
 #projects .project-wrapper__image .thumbnail .img-fluid {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: 50%;
     vertical-align: middle;
     border-radius: 2px
 }
